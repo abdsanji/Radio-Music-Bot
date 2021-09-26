@@ -26,29 +26,6 @@ HELP = """
 ▷upload: Uploads current playing song as audio file.
 ▷/help: Show help for commands.
 ▷/playlist: Shows the playlist.
-
-**Admin Commands:**
-▷/skip **[n]** ...  Skip current or n where n >= 2
-▷cplay: Play music from a channel's music files.
-▷/yplay: Play music from a youtube playlist.
-▷/join: Join voice chat.
-▷/leave: Leave current voice chat.
-▷/shuffle: Shuffle Playlist.
-▷/vc: Check which VC is joined.
-▷/stop: Stop playing.
-▷/radio: Start Radio.
-▷/stopradio: Stops Radio Stream.
-▷/clearplaylist: Clear the playlist.
-▷/export: Export current playlist for future use.
-▷/import: Import a previously exported playlist.
-▷/replay: Play from the beginning.
-▷/clean: Remove unused RAW PCM files.
-▷/pause: Pause playing.
-▷/resume: Resume playing.
-▷/volume: Change volume(0-200).
-▷/mute: Mute in VC.
-▷/unmute: Unmute in VC.
-▷/restart: Restarts the Bot.
 """
 
 
@@ -161,14 +138,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/Radio-Music-Bot'),
+                InlineKeyboardButton("Owner", url='https://t.me/sparkysunny/604'),
             ],
             [
-               InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-               InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+               InlineKeyboardButton('Join my group 💗', url='https://t.me/animefan_club777'),
+               InlineKeyboardButton('oin my channel 💗', url='https://t.me/moviesebseriesAnimes'),
             ],
             [
-               InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/1481808444/131'),
+               InlineKeyboardButton('Helper', url='https://t.me/cheater_01_02/604'),
         
             ]
         ]
