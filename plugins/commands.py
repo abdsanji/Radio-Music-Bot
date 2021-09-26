@@ -19,7 +19,7 @@ from config import Config
 U=USERNAME
 CHAT=Config.CHAT
 msg=Config.msg
-HOME_TEXT = "<b>Hello, [{}](tg://user?id={})\n\nI am Radio-Music-Bot 24×7.\n\nHits /help for more details...</b>"
+HOME_TEXT = "Hola Im Soleh a Radio "
 HELP = """
 **User Commands:**
 ▷/play **[song name]/[yt link]**: Reply to an audio file.
@@ -59,11 +59,11 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/Radio-Music-Bot'),
+        InlineKeyboardButton("Owner", url='https://t.me/sparkysunny/604'),
     ],
     [
-        InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+        InlineKeyboardButton('Join my group 💗', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('Join my channel 💗', url='https://t.me/moviesebseriesAnimes'),
     ],
     [
         InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),
@@ -80,14 +80,14 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/Radio-Music-Bot'),
+            InlineKeyboardButton("Owner", url='https://t.me/sparkysunny/604'),
         ],
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+            InlineKeyboardButton('Join my group 💗', url='https://t.me/animefan_club777'),
+            InlineKeyboardButton('Join my channel 💗', url='https://t.me/moviesebseriesAnimes'),
         ],
         [
-            InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/1481808444/131'),
+            InlineKeyboardButton('Helper', url='https://t.me/cheater_01_02/604'),
         
         ]
     ]
